@@ -1,0 +1,69 @@
+/* ==========================
+   Tokyo Night Giscus Theme
+   ========================== */
+.giscus,
+.giscus-frame {
+  background-color: #1a1b26 !important; /* theme */
+  color: #a9b1d6 !important; /* primary */
+}
+
+/* Core variables */
+.giscus {
+  --color-background: #1a1b26; /* theme */
+  --color-foreground: #a9b1d6; /* primary */
+  --color-muted: #787c99;      /* secondary */
+  --color-muted-subtle: #545c7e; /* tertiary */
+  --color-border: #101014;     /* border */
+  --color-accent-fg: #a9b1d6;  /* content */
+  --color-accent-emphasis: #a9b1d6;
+}
+
+/* Buttons */
+.giscus button {
+  background: #16161e !important; /* entry */
+  color: #a9b1d6 !important;
+  border: 1px solid #101014 !important;
+  border-radius: 6px;
+  padding: 0.25rem 0.75rem;
+}
+.giscus button:hover {
+  background: #14141b !important; /* code-bg */
+}
+
+/* Links */
+.giscus a {
+  color: #a9b1d6 !important;
+  text-decoration: none;
+}
+.giscus a:hover {
+  color: #787c99 !important;
+  text-decoration: underline;
+}
+
+/* Code blocks */
+.giscus pre,
+.giscus code {
+  background: #16161e !important; /* code-block-bg */
+  color: #a9b1d6 !important;
+  border-radius: 6px;
+  padding: 0.25rem 0.5rem;
+}
+
+/* Inputs */
+.giscus input,
+.giscus textarea {
+  background: #14141b !important; /* code-bg */
+  color: #a9b1d6 !important;
+  border: 1px solid #101014 !important;
+  border-radius: 6px;
+  padding: 0.5rem;
+}
+.giscus input::placeholder,
+.giscus textarea::placeholder {
+  color: #787c99 !important;
+}
+
+/* Borders / separators */
+.giscus hr {
+  border-color: #101014 !important;
+}
